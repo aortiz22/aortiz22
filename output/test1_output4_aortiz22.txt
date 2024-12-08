@@ -1,0 +1,74 @@
+Machine Name: a plus
+Input String: aaaaa
+Total Explored Paths: 6
+Overall Result: Accepted
+
+Path 1:
+Result: Rejected
+Depth: 2
+Configurations Explored: 2
+Configuration History:
+[q1]aaaaa_
+a[q2]aaaa_
+
+---
+Path 2:
+Result: Rejected
+Depth: 3
+Configurations Explored: 3
+Configuration History:
+[q1]aaaaa_
+a[q1]aaaa_
+aa[q2]aaa_
+
+---
+Path 3:
+Result: Rejected
+Depth: 4
+Configurations Explored: 4
+Configuration History:
+[q1]aaaaa_
+a[q1]aaaa_
+aa[q1]aaa_
+aaa[q2]aa_
+
+---
+Path 4:
+Result: Rejected
+Depth: 5
+Configurations Explored: 5
+Configuration History:
+[q1]aaaaa_
+a[q1]aaaa_
+aa[q1]aaa_
+aaa[q1]aa_
+aaaa[q2]a_
+
+---
+Path 5:
+Result: Rejected
+Depth: 6
+Configurations Explored: 6
+Configuration History:
+[q1]aaaaa_
+a[q1]aaaa_
+aa[q1]aaa_
+aaa[q1]aa_
+aaaa[q1]a_
+aaaaa[q1]_
+
+---
+Path 6:
+Result: Accepted
+Depth: 7
+Configurations Explored: 7
+Configuration History:
+[q1]aaaaa_
+a[q1]aaaa_
+aa[q1]aaa_
+aaa[q1]aa_
+aaaa[q1]a_
+aaaaa[q2]_
+aaaa[q3]a_
+
+---

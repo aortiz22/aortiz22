@@ -1,0 +1,62 @@
+Machine Name: same number of 0's and 1's
+Input String: 1100201
+Total Explored Paths: 3
+Overall Result: Rejected
+
+Path 1:
+Result: Rejected
+Depth: 6
+Configurations Explored: 6
+Configuration History:
+[q0]1100201_
+_[q2]100201_
+_1[q2]00201_
+_[q3]1x0201_
+[q3]_1x0201_
+_[q5]1x0201_
+
+---
+Path 2:
+Result: Rejected
+Depth: 15
+Configurations Explored: 15
+Configuration History:
+[q0]1100201_
+_[q2]100201_
+_1[q2]00201_
+_[q3]1x0201_
+[q3]_1x0201_
+_[q4]1x0201_
+_x[q2]x0201_
+_xx[q2]0201_
+_x[q3]xx201_
+_[q3]xxx201_
+[q3]_xxx201_
+_[q4]xxx201_
+_x[q4]xx201_
+_xx[q4]x201_
+_xxx[q4]201_
+
+---
+Path 3:
+Result: Rejected
+Depth: 15
+Configurations Explored: 15
+Configuration History:
+[q0]1100201_
+_[q2]100201_
+_1[q2]00201_
+_[q3]1x0201_
+[q3]_1x0201_
+_[q4]1x0201_
+_x[q2]x0201_
+_xx[q2]0201_
+_x[q3]xx201_
+_[q3]xxx201_
+[q3]_xxx201_
+_[q5]xxx201_
+_x[q5]xx201_
+_xx[q5]x201_
+_xxx[q5]201_
+
+---

@@ -1,0 +1,109 @@
+Machine Name: same number of 0's and 1's
+Input String: 1100010
+Total Explored Paths: 4
+Overall Result: Rejected
+
+Path 1:
+Result: Rejected
+Depth: 6
+Configurations Explored: 6
+Configuration History:
+[q0]1100010_
+_[q2]100010_
+_1[q2]00010_
+_[q3]1x0010_
+[q3]_1x0010_
+_[q5]1x0010_
+
+---
+Path 2:
+Result: Rejected
+Depth: 15
+Configurations Explored: 15
+Configuration History:
+[q0]1100010_
+_[q2]100010_
+_1[q2]00010_
+_[q3]1x0010_
+[q3]_1x0010_
+_[q4]1x0010_
+_x[q2]x0010_
+_xx[q2]0010_
+_x[q3]xx010_
+_[q3]xxx010_
+[q3]_xxx010_
+_[q5]xxx010_
+_x[q5]xx010_
+_xx[q5]x010_
+_xxx[q5]010_
+
+---
+Path 3:
+Result: Rejected
+Depth: 27
+Configurations Explored: 27
+Configuration History:
+[q0]1100010_
+_[q2]100010_
+_1[q2]00010_
+_[q3]1x0010_
+[q3]_1x0010_
+_[q4]1x0010_
+_x[q2]x0010_
+_xx[q2]0010_
+_x[q3]xx010_
+_[q3]xxx010_
+[q3]_xxx010_
+_[q4]xxx010_
+_x[q4]xx010_
+_xx[q4]x010_
+_xxx[q4]010_
+_xxxx[q1]10_
+_xxx[q3]xx0_
+_xx[q3]xxx0_
+_x[q3]xxxx0_
+_[q3]xxxxx0_
+[q3]_xxxxx0_
+_[q5]xxxxx0_
+_x[q5]xxxx0_
+_xx[q5]xxx0_
+_xxx[q5]xx0_
+_xxxx[q5]x0_
+_xxxxx[q5]0_
+
+---
+Path 4:
+Result: Rejected
+Depth: 28
+Configurations Explored: 28
+Configuration History:
+[q0]1100010_
+_[q2]100010_
+_1[q2]00010_
+_[q3]1x0010_
+[q3]_1x0010_
+_[q4]1x0010_
+_x[q2]x0010_
+_xx[q2]0010_
+_x[q3]xx010_
+_[q3]xxx010_
+[q3]_xxx010_
+_[q4]xxx010_
+_x[q4]xx010_
+_xx[q4]x010_
+_xxx[q4]010_
+_xxxx[q1]10_
+_xxx[q3]xx0_
+_xx[q3]xxx0_
+_x[q3]xxxx0_
+_[q3]xxxxx0_
+[q3]_xxxxx0_
+_[q4]xxxxx0_
+_x[q4]xxxx0_
+_xx[q4]xxx0_
+_xxx[q4]xx0_
+_xxxx[q4]x0_
+_xxxxx[q4]0_
+_xxxxxx[q1]_
+
+---

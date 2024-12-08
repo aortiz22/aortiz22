@@ -1,0 +1,13 @@
+Machine Name: a plus
+Input String: ba
+Total Explored Paths: 1
+Overall Result: Rejected
+
+Path 1:
+Result: Rejected
+Depth: 1
+Configurations Explored: 1
+Configuration History:
+[q1]ba_
+
+---

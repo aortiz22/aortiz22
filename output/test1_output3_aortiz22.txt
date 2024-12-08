@@ -1,0 +1,34 @@
+Machine Name: a plus
+Input String: aab
+Total Explored Paths: 3
+Overall Result: Rejected
+
+Path 1:
+Result: Rejected
+Depth: 2
+Configurations Explored: 2
+Configuration History:
+[q1]aab_
+a[q2]ab_
+
+---
+Path 2:
+Result: Rejected
+Depth: 3
+Configurations Explored: 3
+Configuration History:
+[q1]aab_
+a[q1]ab_
+aa[q1]b_
+
+---
+Path 3:
+Result: Rejected
+Depth: 3
+Configurations Explored: 3
+Configuration History:
+[q1]aab_
+a[q1]ab_
+aa[q2]b_
+
+---

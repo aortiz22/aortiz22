@@ -1,0 +1,24 @@
+Machine Name: a plus
+Input String: a
+Total Explored Paths: 2
+Overall Result: Accepted
+
+Path 1:
+Result: Rejected
+Depth: 2
+Configurations Explored: 2
+Configuration History:
+[q1]a_
+a[q1]_
+
+---
+Path 2:
+Result: Accepted
+Depth: 3
+Configurations Explored: 3
+Configuration History:
+[q1]a_
+a[q2]_
+[q3]a_
+
+---
