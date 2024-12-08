@@ -1,4 +1,4 @@
-## Hi there 👋
+## This is my github for the Project 2 for TOC! I did program 1!
 
 <!--
 **aortiz22/aortiz22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
